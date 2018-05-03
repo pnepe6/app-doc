@@ -1,0 +1,22 @@
+{
+  "globals": {
+    "react": "React",
+    "react-dom": "ReactDom",
+    "styled-components": "styled",
+    "redux": "redux",
+    "react-redux": "react-redux",
+    "bootstrap-styled-redux": "bootstrap-styled-redux",
+    "react-router-dom": "react-router-dom",
+    "react-router-redux": "react-router-redux"
+  },
+  "external": [
+    "react",
+    "react-dom",
+    "styled-components",
+    "redux",
+    "react-redux",
+    "bootstrap-styled-redux",
+    "react-router-dom",
+    "react-router-redux"
+  ]
+}

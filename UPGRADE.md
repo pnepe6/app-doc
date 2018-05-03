@@ -1,0 +1,26 @@
+# Under 9.x to 9.x
+
+- Remove all dependency from `rollup-umd-scripts` except `babel-core` that should be moved in `dependency`.
+  - `babel-core` **<== move into dependency ** 
+  - `async`
+  - `directory-tree`
+  - `glob`
+  - `kopaxgroup-cli-helpers`
+  - `node-map-directory`
+  - `rimraf`
+  - `shelljs`
+  - `yargs`
+- If present in `devDependency` only, remove `styled-components`, `bootstrap-styled`, `react-transition-group`.
+- Remove the `devDependency` `react-styleguide` (already in package `rollup-documentation`).
+- Remove `webpack` then test to build the documentation with `npm run styleguide:build`:
+  - if it work, leave `webpack` uninstalled.
+  - if it fail, reinstall `webpack` with `npm install webpack --save-dev`.
+- Remove within `package.json` the key `bin`.
+- Remove within `package.json` the script named `rollup-umd`.
+- Replace within `.gitlab-ci.yml` all the string occurences `npm run rollup-umd --` to `npx rollup-umd-scripts`.
+- Add in `.gitlab-ci.yml` initialization after the linee `node --version`: `npx rollup-umd-scripts --version`.
+- Remove or update your UI components within `styleguide` directory according to [rollup-documentation](https://dev-tools.yeutech.com/rollup-documentation/#ui-components), in general that means:
+  - Remove `styleguide/components/LayoutRenderer` or keep your own.
+  - Remove `styleguide/components/Wrapper` or keep your own.
+  - Create `styleguide/styleguide.ext.json` or update your own.
+- Update your `styleguide.config.js` according to [rollup-documentation](https://dev-tools.yeutech.com/rollup-documentation/#configuration).
