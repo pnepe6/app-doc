@@ -1,0 +1,1 @@
+export const ON_TOGGLE_DEMO = 'rollup-umd/demo/ON_TOGGLE_DEMO';
