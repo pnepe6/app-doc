@@ -1,0 +1,5 @@
+<DemoComponent />
+
+```js
+<DemoComponent />
+```

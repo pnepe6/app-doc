@@ -1,0 +1,22 @@
+{
+  "ignore": [
+    "**/__tests__/**",
+    "**/*.test.{js,jsx,ts,tsx}",
+    "**/*.spec.{js,jsx,ts,tsx}",
+    "**/*.d.ts"
+  ],
+  "sections": [
+    {
+      "name": "Abbr",
+      "components": "src/Abbr/index.js"
+    },
+    {
+      "name": "DemoComponent",
+      "components": "src/DemoComponent/index.js"
+    },
+    {
+      "name": "Demo",
+      "components": "src/components/index.js"
+    }
+  ]
+}
