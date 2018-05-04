@@ -215,8 +215,10 @@
   "dependencies": {
     "bootstrap-styled": "^1.6.5",
     "classnames": "^2.2.5",
+    "mini-html-webpack-plugin": "^0.2.3",
     "prop-types": "^15.6.1",
     "react-transition-group": "^2.3.1",
+    "react-virtualized": "^9.18.5",
     "reselect": "^3.0.1"
   },
   "peerDependencies": {

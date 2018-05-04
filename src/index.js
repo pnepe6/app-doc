@@ -1,4 +1,4 @@
-export { default as Demo } from './components/index';
-export { onToggleDemo } from './components/actions';
-export { makeSelectDemo } from './components/selectors';
-export { ON_TOGGLE_DEMO } from './components/constants';
+export { default as Demo } from './components/DemoComponent/index';
+export { onToggleDemo } from './components/DemoComponent/actions';
+export { makeSelectDemo } from './components/DemoComponent/selectors';
+export { ON_TOGGLE_DEMO } from './components/DemoComponent/constants';

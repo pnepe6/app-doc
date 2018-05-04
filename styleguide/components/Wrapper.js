@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Provider from 'react-redux/lib/components/Provider';
 import PropTypes from 'prop-types';
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
-import reducer from '../../src/components/reducer';
+import reducer from '../../src/components/DemoComponent/reducer';
 
 export default class Wrapper extends Component { // eslint-disable-line react/prefer-stateless-function
   static propTypes = {

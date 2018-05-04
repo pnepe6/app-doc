@@ -7,16 +7,12 @@
   ],
   "sections": [
     {
+      "name": "ListLoader",
+      "components": "src/components/ListLoader/index.js"
+    },
+    {
       "name": "Abbr",
-      "components": "src/Abbr/index.js"
-    },
-    {
-      "name": "DemoComponent",
-      "components": "src/DemoComponent/index.js"
-    },
-    {
-      "name": "Demo",
-      "components": "src/components/index.js"
+      "components": "src/components/Abbr/index.js"
     }
   ]
 }
