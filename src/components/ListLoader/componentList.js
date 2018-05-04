@@ -45,7 +45,6 @@ import Summary from '../../bsComponents/Summary';
 import Sub from '../../bsComponents/Sub';
 import Sup from '../../bsComponents/Sup';
 import Badge from '../../bsComponents/Badge';
-import Textarea from '../../bsComponents/Textarea';
 import Form from '../../bsComponents/Form';
 import Container from '../../bsComponents/Container';
 
@@ -221,11 +220,6 @@ const componentList = [
       <H5>Heading <Badge>New</Badge></H5>
       <H6>Heading <Badge>New</Badge></H6>
     </div>
-  ),
-  (
-    <Form>
-      <Textarea className="w-100" name="text" id="example-text-area" />
-    </Form>
   ),
   (
     <Container className="py-2">
